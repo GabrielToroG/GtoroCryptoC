@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		349094852803B0CC008E9E8F /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349094842803B0CC008E9E8F /* CryptoApp.swift */; };
-		349094872803B0CC008E9E8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349094862803B0CC008E9E8F /* ContentView.swift */; };
+		349094872803B0CC008E9E8F /* CryptoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349094862803B0CC008E9E8F /* CryptoView.swift */; };
 		349094892803B0CD008E9E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349094882803B0CD008E9E8F /* Assets.xcassets */; };
 		3490948C2803B0CD008E9E8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3490948B2803B0CD008E9E8F /* Preview Assets.xcassets */; };
+		349094932803B0EC008E9E8F /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349094922803B0EC008E9E8F /* CryptoModel.swift */; };
+		349094952803B11E008E9E8F /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349094942803B11E008E9E8F /* CryptoViewModel.swift */; };
+		34918E0728041CB500687509 /* CoinMarketCapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34918E0628041CB500687509 /* CoinMarketCapAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		349094812803B0CC008E9E8F /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349094842803B0CC008E9E8F /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
-		349094862803B0CC008E9E8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		349094862803B0CC008E9E8F /* CryptoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoView.swift; sourceTree = "<group>"; };
 		349094882803B0CD008E9E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3490948B2803B0CD008E9E8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		349094922803B0EC008E9E8F /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		349094942803B11E008E9E8F /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		34918E0628041CB500687509 /* CoinMarketCapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				349094842803B0CC008E9E8F /* CryptoApp.swift */,
-				349094862803B0CC008E9E8F /* ContentView.swift */,
+				349094862803B0CC008E9E8F /* CryptoView.swift */,
+				349094922803B0EC008E9E8F /* CryptoModel.swift */,
+				349094942803B11E008E9E8F /* CryptoViewModel.swift */,
+				34918E0628041CB500687509 /* CoinMarketCapAPI.swift */,
 				349094882803B0CD008E9E8F /* Assets.xcassets */,
 				3490948A2803B0CD008E9E8F /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349094872803B0CC008E9E8F /* ContentView.swift in Sources */,
+				349094932803B0EC008E9E8F /* CryptoModel.swift in Sources */,
+				34918E0728041CB500687509 /* CoinMarketCapAPI.swift in Sources */,
+				349094952803B11E008E9E8F /* CryptoViewModel.swift in Sources */,
+				349094872803B0CC008E9E8F /* CryptoView.swift in Sources */,
 				349094852803B0CC008E9E8F /* CryptoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +282,7 @@
 				DEVELOPMENT_TEAM = ML7FBVGX3D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_TEAM = ML7FBVGX3D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crypto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
