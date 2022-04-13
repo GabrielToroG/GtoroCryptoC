@@ -3,6 +3,7 @@ iOS app (Swift) to visualize the value of the 10 cryptocurrencies with the highe
 
 DECISIONS <br />
 1- It was decided not to use push notification because I thought I could not use it. <br />
+2- It was decided to use the "Combine" library to make the API calls.
 
 
 QUESTIONS <br />
